@@ -33,6 +33,7 @@ Za początek pandemii traktowana jest data 04.03.2020 kiedy to u 66-letniego Mie
 
 Wykresy 1-4. Analiza danych COVID-19
 ![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_1.png)
+
 Źródło: Opracowanie własne na podstawie https://github.com/owid/covid-19-data/tree/master/public/data
 
 
@@ -47,6 +48,7 @@ r 	0,0236%	0,0033%	0,0551%
 
 Wykres 5. Notowania i zmienność indeksu WIG
 ![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_3.png)
+
  Źródło: opracowanie własne na podstawie danych z portalu stooq.com
 
 
@@ -59,6 +61,7 @@ Do weryfikacji postawionych hipotez wybrany został model regresji kwantylowej u
 
 Wykres 6. Zróżnicowanie zwrotów w zależności od dnia tygodnia
 ![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_4.png)
+
 Źródło: opracowanie własne na podstawie danych ze Stooq.com
 
 
@@ -66,6 +69,7 @@ Powodem wyboru tych zmiennych objaśniających była ich, według autora, potenc
 
 
 ![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_5.png)
+
 
 
 
@@ -88,6 +92,7 @@ Tabela 2. Wpływ zmian zakażeń COVID-19 na indeksy giełdowe
 
 
 
+
 6. Zakończenie 
 
 W dzisiejszym świecie ekonometrii  model regresji kwantylowej nie cieszy się wielką popularnością. Ważnym celem pracy była popularyzacja tego narzędzia i pokazanie możliwości jego zastosowania w analizie szoków na rynku finansowym. Ważnym aspektem jest również zróżnicowanie wyników względem klasycznej metody OLS.
@@ -102,7 +107,11 @@ Metoda regresji kwantylowej może być stosowana do dywersyfikacji i optymalizac
 
 
 
-
+/
+/
+/
+/
+/
 Źródła:
 
 1.	https://discuss.dizzycoding.com/logarithmic-returns-in-pandas-dataframe/
