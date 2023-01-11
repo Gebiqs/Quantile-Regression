@@ -4,7 +4,7 @@
 
 
 
-###1. Motywacja badania 
+### 1. Motywacja badania 
 
 Truizmem byłoby powiedzieć, że pandemia miała wpływ na Polską gospodarkę. Proste stwierdzenie, że „Pandemia wpłynęła na gospodarkę” nikogo nie dziwi. Prawdziwie zaskakujące mogą okazać się wnioski wyciągnięte z analizy przeprowadzonej przy użyciu bardziej zaawansowanych narzędzi. Odpowiednio dobrany zestaw narzędzi może określić nie tylko charakter wpływu, ale również może rozszerzyć perspektywę o kierunek wpływu, zależność między zmiennymi czy nawet rozbić problem na części pierwsze i umożliwić badanie struktury zjawiska. Regresja kwantylowa jest stosunkowo mało popularnym narzędziem regresji, lecz może okazać się przydatna w analizie złożoności wpływu zmiennych, czy właśnie struktury wpływu. W dalszej części niniejszego wywodu przybliżona zostanie po krótce teoria i przykładowe zastosowanie regresji kwantylowej.
 Należy zauważyć, że notowania giełdowe są ważnym indykatorem powodzenia firm, a indeksy odzwierciedlają stan gospodarki. W tym samym momencie jednak ceny są wynikiem działania aktorów giełdowych, który przetwarzają dostępne informacje. Wartość akcji będzie zatem fluktuowała w czasie pod ich wpływem. Zatem motywatorem tego badania jest chęć analizy wpływu informacji o zakażeniach na polski rynek finansowy. W obszarze zainteresowania w szczególności leży pytanie, czy wpływ COVID-19 na zwroty z rynku akcji były zależne od ogonów rozkładu, a jeśli tak, to jaki dokładnie był ten wpływ. 
@@ -13,7 +13,7 @@ Należy zauważyć, że notowania giełdowe są ważnym indykatorem powodzenia f
 
 
 
-###2. Cel badawczy
+### 2. Cel badawczy
 
 Celem pracy jest zbadanie zależności między zmianami zakażeń COVID a zmianami cen akcji polskich indeksów. W obszarze zainteresowania niniejszej pracy jest zbadanie struktury wpływu zmian zakażeń COVID na zmiany cen polskich indeksów giełdowych . Celem pracy jest również zweryfikowanie tezy o tym, że wpływ zmian zakażeń na zmiany cen jest zróżnicowany:
 •	Ekstremalne dodatnie zmiany zakażeń współwystępują z ekstremalnie ujemnymi zmianami notowań indeksów. 
@@ -24,7 +24,7 @@ Celem pracy jest zbadanie zależności między zmianami zakażeń COVID a zmiana
 
 
 
-###4. Metodologia
+### 4. Metodologia
 
 Badanie obejmuje dzienne dane notowań z przedziału czasu 4.01.2017-15.03.2022. Po wyczyszczeniu i dostosowaniu zbioru danych pozostało 1275 obserwacji. Dane dotyczące notowań pochodzą ze strony Stooq.com , dane dotyczące zakażeń COVID w Polsce zostały z kolei wyodrębnione z pliku dotyczącego dziennych zakażeń dostępnego w serwisie Github  jako ogólnodostępny, aktualizowany codziennie projekt open-source utrzymywany przez społeczność portalu.
 Dla uproszczenia, indeks WIG będzie traktowany jako odpowiednia reprezentacja Polskiej giełdy. Z kolei wyszczególnione w Tabeli 2 indeksy: WIG20, mWIG40 oraz sWIG80 w ramach zgeneralizowane jako odpowiednio duże, średnie i małe spółki. Tabela 2 licząc od czwartego wiersza przedstawia notowania indeksów, które są reprezentacją kondycji poszczególnych sektorów Polskiej gospodarki. 
@@ -75,7 +75,7 @@ Powodem wyboru tych zmiennych objaśniających była ich, według autora, potenc
 
 
 
-###5. Rezultaty
+### 5. Rezultaty
 
 Pozostające w interesie autora wyniki zostały wypisane w Tabeli 2. Wypisane zostały w niej współczynniki kierunkowe zmiany zakażeń COVID-19 i odchylenia standardowe dla siedmiu kwantyli na zwroty z jedenastu indeksów GPW.
 Na łącznie 77 policzonych współczynników kierunkowych 20 charakteryzuje istotność statystyczna (25%). Wpływ zakażeń COVID-19 na zwroty giełdowe zgodnie z założeniami jest zróżnicowany. Co więcej, zgodnie z założeniami kierunek wpływu w zdecydowanej części indeksów jest negatywny. Wszystkie istotne statystycznie współczynniki z wyjątkiem tych dla indeksu WIG CHEMIA są negatywne. 
@@ -93,7 +93,7 @@ Tabela 2. Wpływ zmian zakażeń COVID-19 na indeksy giełdowe
 
 
 
-###6. Zakończenie 
+### 6. Zakończenie 
 
 W dzisiejszym świecie ekonometrii  model regresji kwantylowej nie cieszy się wielką popularnością. Ważnym celem pracy była popularyzacja tego narzędzia i pokazanie możliwości jego zastosowania w analizie szoków na rynku finansowym. Ważnym aspektem jest również zróżnicowanie wyników względem klasycznej metody OLS.
 Sektory, które najbardziej cierpiały na wzrostach zakażeń COVID to był: sektor odzieżowy, sektor bankowy oraz sektor informatyki. Z kolei spółki zajmujące się szeroko pojętą chemią okazały się być jednymi z nielicznych beneficjentów pandemii.
