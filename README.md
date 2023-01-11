@@ -68,7 +68,7 @@ Do weryfikacji postawionych hipotez wybrany został model regresji kwantylowej u
 Powodem wyboru tych zmiennych objaśniających była ich, według autora, potencjalna zdolność do wyjaśnienia poziomu zwrotów na polskiej giełdzie. Notowania indeksu DAX są niejako indykatorem kondycji gospodarczej najważniejszego partnera gospodarczego Polski. Ceny baryłki ropy Brent odnoszą się do ropy wydobywanej na morzu północnym i są uznawane za odpowiedni benchmark ceny ropy w Europie. Zmienne zero-jedynkowe reprezentujące dni tygodnia zostały wybrane ze względu na potrzebę uwzględnienia wpływu dnia tygodnia na poziom zwrotu. W modelu zaprezentowane są one jako wektor X’. Wszystkie zmienne objaśniające są opóźnione względem zmiennej objaśnianej o jeden okres (dzień). Ten zabieg ma na celu uwzględnienie opóźnienia reakcji inwestorów na informacje zewnętrzne. Model został sporządzony w postaci jak poniżej:
 
 
-<img src="https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_5.png" width="200" height="400">
+<img src="https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_5.png" width="400" height="100">
 
 
 
