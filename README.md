@@ -106,12 +106,8 @@ Metoda regresji kwantylowej może być stosowana do dywersyfikacji i optymalizac
 
 
 
-/
-/
-/
-/
-/
-Źródła:
+
+### Źródła:
 
 1.	https://discuss.dizzycoding.com/logarithmic-returns-in-pandas-dataframe/
 2.	https://www.krus.gov.pl/fileadmin/moje_dokumenty/obrazki/kwartalnik/nr_73/73_Szajner_n.pdf [dostęp: 21.05.2022]
