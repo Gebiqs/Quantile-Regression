@@ -40,9 +40,8 @@ Za początek pandemii traktowana jest data 04.03.2020 kiedy to u 66-letniego Mie
 W badanym okresie średnia kapitalizacja indeksu WIG kształtowała się na poziomie 59tys. złotych. A przeciętna wartość zwrotów, liczonych jako logarytm naturalny przyrostu procentowego, był bliski zeru (0,025%), a odchylenie standardowe zwrotów wynosiło 0,012. Co ciekawe, przeciętne zwroty dla okresu przed pandemią COVID są niższe niż zwroty podczas trwania pandemii. Odchylenie standardowe z kolei na odwrót. Szczegółowe dane przedstawia tabela 1.
 
 #### Tabela 1. Porównanie przedcovidowych i pocovidowych zwrotów WIG
-	Ogółem	pre-COVID	post-COVID
-r 	0,0236%	0,0033%	0,0551%
-σ	0,0124	0,0090	0,0164
+![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_2.png)
+
 Źródło: opracowanie własne
 
 
@@ -59,7 +58,7 @@ Do weryfikacji postawionych hipotez wybrany został model regresji kwantylowej u
 
 
 
-####Wykres 6. Zróżnicowanie zwrotów w zależności od dnia tygodnia
+#### Wykres 6. Zróżnicowanie zwrotów w zależności od dnia tygodnia
 ![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_4.png)
 
 Źródło: opracowanie własne na podstawie danych ze Stooq.com
@@ -86,6 +85,7 @@ Na łącznie 77 policzonych współczynników kierunkowych 20 charakteryzuje ist
 
 #### Tabela 2. Wpływ zmian zakażeń COVID-19 na indeksy giełdowe 
 ![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_6.png)
+
 Źródło: opracowanie własne na podstawie danych ze Stooq.com oraz github.com
 
 
