@@ -11,12 +11,16 @@ Należy zauważyć, że notowania giełdowe są ważnym indykatorem powodzenia f
 
 
 
+
+
 2. Cel badawczy
 
 Celem pracy jest zbadanie zależności między zmianami zakażeń COVID a zmianami cen akcji polskich indeksów. W obszarze zainteresowania niniejszej pracy jest zbadanie struktury wpływu zmian zakażeń COVID na zmiany cen polskich indeksów giełdowych . Celem pracy jest również zweryfikowanie tezy o tym, że wpływ zmian zakażeń na zmiany cen jest zróżnicowany:
 •	Ekstremalne dodatnie zmiany zakażeń współwystępują z ekstremalnie ujemnymi zmianami notowań indeksów. 
 •	korelacja między wartościami środkowymi rozkładu (okolice mediany) jest mniejsza niż korelacja na krańcach rozkładu. 
 •	Siła i kierunek relacji różni się między sektorami i kapitalizacją spółek. 
+
+
 
 
 
@@ -28,7 +32,7 @@ Za początek pandemii traktowana jest data 04.03.2020 kiedy to u 66-letniego Mie
 
 
 Wykresy 1-4. Analiza danych COVID-19
- 
+![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_1.png)
 Źródło: Opracowanie własne na podstawie https://github.com/owid/covid-19-data/tree/master/public/data
 
 
@@ -42,6 +46,7 @@ r 	0,0236%	0,0033%	0,0551%
 
 
 Wykres 5. Notowania i zmienność indeksu WIG
+![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_3.png)
  Źródło: opracowanie własne na podstawie danych z portalu stooq.com
 
 
@@ -52,27 +57,15 @@ Do weryfikacji postawionych hipotez wybrany został model regresji kwantylowej u
 
 
 
-
-
 Wykres 6. Zróżnicowanie zwrotów w zależności od dnia tygodnia
- 
+![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_4.png)
 Źródło: opracowanie własne na podstawie danych ze Stooq.com
 
 
 Powodem wyboru tych zmiennych objaśniających była ich, według autora, potencjalna zdolność do wyjaśnienia poziomu zwrotów na polskiej giełdzie. Notowania indeksu DAX są niejako indykatorem kondycji gospodarczej najważniejszego partnera gospodarczego Polski. Ceny baryłki ropy Brent odnoszą się do ropy wydobywanej na morzu północnym i są uznawane za odpowiedni benchmark ceny ropy w Europie. Zmienne zero-jedynkowe reprezentujące dni tygodnia zostały wybrane ze względu na potrzebę uwzględnienia wpływu dnia tygodnia na poziom zwrotu. W modelu zaprezentowane są one jako wektor X’. Wszystkie zmienne objaśniające są opóźnione względem zmiennej objaśnianej o jeden okres (dzień). Ten zabieg ma na celu uwzględnienie opóźnienia reakcji inwestorów na informacje zewnętrzne. Model został sporządzony w postaci jak poniżej:
 
 
-
-Indext+1  = βτ COVIDt  + β1τ DAXt  + β2τ OILt  + βa’τ X’ t
-
-
-
-
-
-
-
-
-
+![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_5.png)
 
 
 
@@ -89,14 +82,24 @@ Na łącznie 77 policzonych współczynników kierunkowych 20 charakteryzuje ist
 	Wizualizacja tabeli 2, wraz z porównaniem wyników względem klasycznej metody regresji liniowej znajduje się w załączniku 1. Jest ono pewnym uszczegółowieniem wyników i ma na celu zaoferowanie możliwość oceny wpływu COVID-19 na indeksy w sposób wizualny. 
 
 Tabela 2. Wpływ zmian zakażeń COVID-19 na indeksy giełdowe 
- 
+![alt text](https://github.com/Gebiqs/Quantile-Regression/blob/main/grafika_6.png)
 Źródło: opracowanie własne na podstawie danych ze Stooq.com oraz github.com
+
+
+
 
 6. Zakończenie 
 
 W dzisiejszym świecie ekonometrii  model regresji kwantylowej nie cieszy się wielką popularnością. Ważnym celem pracy była popularyzacja tego narzędzia i pokazanie możliwości jego zastosowania w analizie szoków na rynku finansowym. Ważnym aspektem jest również zróżnicowanie wyników względem klasycznej metody OLS.
 Sektory, które najbardziej cierpiały na wzrostach zakażeń COVID to był: sektor odzieżowy, sektor bankowy oraz sektor informatyki. Z kolei spółki zajmujące się szeroko pojętą chemią okazały się być jednymi z nielicznych beneficjentów pandemii.
 Metoda regresji kwantylowej może być stosowana do dywersyfikacji i optymalizacji portfolio inwestycyjnego oraz zdaniem autora, powinna być brana pod uwagę przy jego konstrukcji.  
+
+
+
+
+
+
+
 
 
 
